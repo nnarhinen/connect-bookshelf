@@ -1,0 +1,21 @@
+{
+  "name": "connect-bookshelf",
+  "version": "0.0.1",
+  "description": "Connect session store using Bookshelf.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:nnarhinen/connect-bookshelf.git"
+  },
+  "author": "Niklas Närhinen <niklas@narhinen.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nnarhinen/connect-bookshelf/issues"
+  },
+  "dependencies": {
+    "debug": "~2.0.0"
+  }
+}
