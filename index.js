@@ -38,7 +38,7 @@ module.exports = function(session) {
   };
 
   BookshelfStore.prototype.destroy = function(sid, cb) {
-    this.model.query('where', 'sid', '=', sid).del().then(function() { cb(); }).fail(cb);
+    this.model.query().where({sid: sid}).del().then(function() { cb(); }).catch(cb);
   };
 
   return BookshelfStore;
