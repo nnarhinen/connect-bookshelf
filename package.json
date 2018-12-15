@@ -16,6 +16,6 @@
     "url": "https://github.com/nnarhinen/connect-bookshelf/issues"
   },
   "dependencies": {
-    "debug": "~2.0.0"
+    "debug": "^4.1.0"
   }
 }
